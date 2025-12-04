@@ -2,11 +2,17 @@ package com.cadastro.Departamentos;
 
 import com.cadastro.Funcionarios.FuncionarioModel;
 import jakarta.persistence.*;
+import lombok.*;
 
 import java.util.List;
 
 @Entity
 @Table(name = "tb_departamentos")
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+@Data
 public class DepartamentosModel {
 
     @Id
